@@ -1,0 +1,430 @@
+{
+  "tasks": [
+    {
+      "tag": "greeting",
+      "ways": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for contect me",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+		"Well come to Tony Stark"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "ways": ["Bye", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+		"See ya",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "ways": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+	{
+	  "tag": "department count",
+	   "ways": [
+        "Number of departments?",
+        "How many departments?"
+      ], 
+	   "responses": ["Four Departments","4"]
+    },
+    {
+      "tag": "department",
+       "ways": [
+        "What are the available departments?",
+        "How many departments?",
+        "Name of the departments?"
+      ],
+      "responses": [
+        "\n Department of Civil Engineering \n Department of Computer Engineering \n Department of Electrical \n and Electronic Engineering and Department of Inter-disciplinary Studies." 
+      ]
+	},
+    {
+      "tag": "General Program",
+	  "ways": [
+        "How many semester for General Program?",
+        "What are the semester General Program?"
+      ],
+      "responses": ["First Three Semesters"]
+    },
+    {
+      "tag": "First semester",
+       "ways": [
+        "How many modules in First semester?",
+        "Number of modules in First semester?",
+		"Number of modules in 1st semester?",
+		"How many modules in 1st semester?"
+       ],
+      "responses": [
+        "6 modules for total 18 credits"]
+	  
+	},
+	{
+	  "tag": "modules",
+		"ways": [
+        "Name of the modules in First semester?",
+        "modules in First semester?",
+		"Name of the course in First semester?",
+		"course in First semester?",
+		"subjects in First semester?",
+		"Name of the subjects in First Semesters?",
+		"Name of the modules in 1st semester?",
+        "modules in 1st semester?",
+		"Name of the course in 1st semester?",
+		"course in 1st semester?",
+		"subjects in 1st semester?",
+		"Name of the subjects in 1st Semesters?"
+      ],
+      "responses": [
+	   "\nEnglish Language Enhancement (MC1010) = 39 hours of lectures and 18 hours of Assignments, \nMathematics(MC1020) = 34 hours of lectures and 22 hours of Assignments, \nEngineering Drawing(ID1010) = 9 hours of lectures and 72 hours of Practical , \nComputing(EC1011) = 31 hours of lectures, 6 hours of Assignments, 8 hours of Tutorial and 24 hours of Practical \nApplied Electricity(EC1020) = 39 hours of lectures and 18 hours of Assignments, \nEngineering Metrology(ID1021) = 39 hours of lectures and 18 hours of Assignments"
+	   ]
+    },
+    {
+     "tag": "English Language Enhancement",
+	   "ways": [
+        "credits",
+        "How many credits for English?",
+        "Number of credits for English?",
+        "credits limite for English?"
+      ],
+      "responses": ["3"]
+	},
+	{
+	  "tag": "Prerequisite",
+	   "ways": [
+        "Prerequisite ?",
+        "Any Prerequisite subjects ?",
+        "What are the Prerequisite subjects ?",
+        "Any Prerequisite modules ?",
+		"What are the Prerequisite modules?",
+		"Any Prerequisite course?",
+		"What are the Prerequisite course?"
+      ],
+      "responses": ["None","No Prerequisite"]
+	},
+	{
+	  "tag": "Intended Learning Outcomes of English",
+	    "ways": [
+        "Intended Learning Outcomes of English?",
+        "ILOs of English?",
+        "What are the Intended Learning Outcomes of English?",
+		"What are the ILOs of English?",
+		"Give the Intended Learning Outcomes of English?",
+        "Give the ILOs of English?"
+      ],
+      "responses": [
+	  "\nRecognize scientific materials \nIdentify key and supporting given ideas in the written academic and audio-visual text \nApply grammatical rules to construct simple, compound and complex sentences using appropriate tenses, voice and grammatical elements, \nGenerate a limited range of features of spontaneous speech related to learners context "
+	  ]
+    },
+	{
+	  "tag": "course contents of English",
+		"ways": [
+        "course contents of English?",
+        "What are the course contents of English?",
+		"Give the course contents of English?",
+	    "contents of English?",
+        "What are the contents of English?",
+		"Give the contents of English?"
+      ],
+      "responses": [
+	  "\nGeneral and Academic Reading = 10 hours of lectures and 6 hours of Assignments, \nGeneral and Academic Writing = 13 hours of lectures and 6 hours of Assignments, \nGeneral and Academic Listening = 7 hours of lectures and 3 hours of Assignments, \nGeneral and Academic Speaking = 9 hours of lectures and 3 hours of Assignments"
+	  ]
+	}, 
+	{
+	  "tag": "Mid marks for English",	
+	   "ways": [
+        "Mid marks for English?",
+        "How many marks for English Mid exam?",
+		"Peraentage of marks for English Mid exam?",
+		"How many marks for English Mid semester?",
+		"Peraentage of marks for English Mid semester?"
+      ],
+      "responses": ["30 marks","Thirty marks","30%"]
+	},
+	{
+	 "tag": "Assignments marks for English",	
+	   "ways": [
+        "Assignments marks for English?",
+        "How many marks for English Assignments?",
+		"Peraentage of marks for English Assignments?"
+      ],
+      "responses": ["10 marks","Ten marks"]
+	},
+	{
+	  "tag": "Lab marks for English",
+		"ways": [
+        "Lab marks for English?",
+        "How many marks for Lab in English?",
+		"Peraentage of marks Lab in for English?"
+      ],
+      "responses": ["Zero","None"]
+	},
+	{
+      "tag": "students presentation for English", 
+		"ways": [
+        "students presentation marks in English?",
+        "How many marks for students presentation in English?",
+		"Peraentage of marks for students presentation in English?"
+      ],
+      "responses": ["5 marks","Five marks"]
+	},
+	{
+	  "tag": "students Oral Examination for English", 	
+		"ways": [
+        "students Oral Examination marks in English?",
+        "How many marks for Oral Examination in English?",
+		"Peraentage of marks for Oral Examination in English?"
+      ],
+      "responses": ["5 marks","Five marks"]
+	},
+	{
+      "tag": "End Exam for English",
+		"ways": [
+        "End Examination marks in English?",
+		"End Exam marks in English?",
+        "How many marks for End Examination in English?",
+		"Peraentage of marks for End Examination in English?"
+      ],
+      "responses": ["50 marks","Fifty marks"]
+	},
+	{
+	  "tag": "Incourse Assessment for English", 	
+		"ways": [
+        "Incourse Assessment marks in English?",
+		"Incourse marks in English?",
+        "How many marks for Incourse in English?",
+		"Peraentage of marks for Incourse in English?"
+      ],
+      "responses": [
+	  "\nAssignments = 10 \nStudents Presentation = 5 \nOral Examination = 5 \nMid Semester Assessment = 30 \nLab and Field work = 0"]
+	},
+	{
+	  "tag": "Marks for English",	
+		"ways": [
+        "marks in English?",
+		"marks system in English?"
+      ],
+      "responses": [
+	 "\nAssignments = 10 \nStudents Presentation = 5 \nOral Examination = 5 \nMid Semester Assessment = 30 \nLab and Field work = 0 \nEnd Semester Examination = 50"]
+    },
+	{
+     "tag": "Mathematics",
+	   "ways": [
+        "credits",
+        "How many credits for Mathematics?",
+        "Number of credits for Mathematics?",
+        "credits limite for Mathematics?"
+      ],
+      "responses": ["3"]
+	},
+	{
+	  "tag": "Intended Learning Outcomes of Mathematics",
+	    "ways": [
+        "Intended Learning Outcomes of Mathematics?",
+        "ILOs of Mathematics?",
+        "What are the Intended Learning Outcomes of Mathematics?",
+		"What are the ILOs of Mathematics?",
+		"Give the Intended Learning Outcomes of Mathematics?",
+        "Give the ILOs of Mathematics?"
+      ],
+      "responses": [
+	  "\nDefine the basic concepts of set theory and to identify real numbers in a more insightful manner, and perform algebra on complex numbers in Cartesian, and polar and forms \nApply the principles of Vector on the plane to space and derive the equations of line and plane in vector form, \nExplain the concepts of a function of several variables and compute the derivatives of multivariable function, \n Identify the sequence and infinite series, discuss the convergence, and obtain the power series expansion of certain functions, \nDiscuss the least square errors methods to find the curve of best fit and explain its accuracy"
+	  ]
+    },
+	{
+	  "tag": "course contents of Mathematics",
+		"ways": [
+        "course contents of Mathematics?",
+        "What are the course contents of Mathematics?",
+		"Give the course contents of Mathematics?",
+	    "contents of Mathematics?",
+        "What are the contents of Mathematics?",
+		"Give the contents of Mathematics?"
+      ],
+      "responses": [
+	  "\nBasic Set Theory = 2 hours of lectures and 2 hours of Tutorial, \nVectors in Euclidean Space = 2 hours of lectures and 2 hours of Tutorial, \nFunctions of a Single Variable  = 6 hours of lectures and 4 hours of Tutorial, \nSequences  = 5 hours of lectures and 2 hours of Tutorial, \nInfinite Series = 6 hours of lectures and 3 hours of Tutorial, \nPower Series   = 4 hours of lectures and 2 hours of Tutorial,\nComplex Numbers   = 1 hours of lectures and 2 hours of Tutorial,\nFunctions of Several Variables = 7 hours of lectures and 4 hours of Tutorial,\nCurve Fitting = 1 hours of lectures and 1 hours of Tutorial"
+	  ]
+	}, 
+	{
+	  "tag": "Mid marks for Mathematics",	
+	   "ways": [
+        "Mid marks for mathematics?",
+        "How many marks for mathematics Mid exam?",
+		"Peraentage of marks for mathematics Mid exam?",
+		"How many marks for mathematics Mid semester?",
+		"Peraentage of marks for mathematics Mid semester?"
+      ],
+      "responses": ["20 marks","Twenty marks","30%"]
+	},
+	{
+	 "tag": "Assignments marks for Mathematics",	
+	   "ways": [
+        "Assignments marks for mathematics?",
+        "How many marks for mathematics Assignments?",
+		"Peraentage of marks for mathematics Assignments?"
+      ],
+      "responses": ["30 marks","Thirty marks"]
+	},
+	{
+	  "tag": "Lab marks for Mathematics",
+		"ways": [
+        "Lab marks for mathematics?",
+        "How many marks for Lab in mathematics?",
+		"Peraentage of marks Lab in for mathematics?"
+      ],
+      "responses": ["Zero","None"]
+	},
+	{
+      "tag": "End Exam for Mathematics",
+		"ways": [
+        "End Examination marks in mathematics?",
+		"End Exam marks in mathematics?",
+        "How many marks for End Examination in mathematics?",
+		"Peraentage of marks for End Examination in mathematics?"
+      ],
+      "responses": ["50 marks","Fifty marks"]
+	},
+	{
+	  "tag": "Incourse Assessment for Mathematics", 	
+		"ways": [
+        "Incourse Assessment marks in mathematics?",
+		"Incourse marks in mathematics?",
+        "How many marks for Incourse in mathematics?",
+		"Peraentage of marks for Incourse in mathematics?"
+      ],
+      "responses": [
+	  "\nAssignments = 30 \nMid Semester Assessment = 20 \nLab and Field work = 0"]
+	},
+	{
+	  "tag": "Marks for Mathematics",	
+		"ways": [
+        "marks in Mathematics?",
+		"marks system in Mathematics?"
+      ],
+      "responses": [
+	 "\nAssignments = 30 \nMid Semester Assessment = 20 \nLab and Field work = 0 \nEnd Semester Examination = 50"]
+    },
+	{
+     "tag": "Engineering Drawing",
+	   "ways": [
+        "credits",
+        "How many credits for Engineering Drawing?",
+        "Number of credits for Engineering Drawing?",
+        "credits limite for Engineering Drawing?"
+      ],
+      "responses": ["3"]
+	},
+	{
+	  "tag": "Intended Learning Outcomes of Engineering Drawing",
+	    "ways": [
+        "Intended Learning Outcomes of Engineering Drawing?",
+        "ILOs of Engineering Drawing?",
+        "What are the Intended Learning Outcomes of Engineering Drawing?",
+		"What are the ILOs of Engineering Drawing?",
+		"Give the Intended Learning Outcomes of Engineering Drawing?",
+        "Give the ILOs of Engineering Drawing?"
+      ],
+      "responses": [
+	  "\nDescribe standard drafting principles and theory of projection, \nPlot mechanical, architectural, and household wiring drawings at designated scales, \nRecognize underlying techniques behind engineering graphics, \n Sketch objects freehand in 3-D, \nPrepare drawings using Computer Aided Drawing (CAD) software package"
+	  ]
+    },
+	{
+	  "tag": "course contents of Engineering Drawing",
+		"ways": [
+        "course contents of Engineering Drawing?",
+        "What are the course contents of Engineering Drawing?",
+		"Give the course contents of Engineering Drawing?",
+	    "contents of Engineering Drawing?",
+        "What are the contents of Engineering Drawing?",
+		"Give the contents of Engineering Drawing?"
+      ],
+      "responses": [
+	  "\nFundamentals of Engineering Drawing  = 1 hour of lecture, \nDrawing in First and Third Angle Orthographic Projections, International Standards in Engineering Drawing Practice  = 1 hour of lecture and 10 hours of Practical, \nMechanical, Architectural and Household Wiring Drawing  = 3 hours of lectures and 30 hours of Practical, \nEngineering Graphics   = 2 hours of lectures and 12 hours of Practical, \nFreehand Sketching  = 10 hours of Practical, \n Fundamental Knowledge in Computer Aided Drawing  = 2 hours of lectures and 10 hours of Practical"
+	  ]
+	}, 
+	{
+	  "tag": "Mid marks for Engineering Drawing",	
+	   "ways": [
+        "Mid marks for Engineering Drawing?",
+        "How many marks for Engineering Drawing Mid exam?",
+		"Peraentage of marks for Engineering Drawing Mid exam?",
+		"How many marks for Engineering Drawing Mid semester?",
+		"Peraentage of marks for Engineering Drawing Mid semester?"
+      ],
+      "responses": ["30 marks","Thirty marks","30%"]
+	},
+	{
+	 "tag": "Assignments marks for Engineering Drawing",	
+	   "ways": [
+        "Assignments marks for Engineering Drawing?",
+        "How many marks for Engineering Drawing Assignments?",
+		"Peraentage of marks for Engineering Drawing Assignments?"
+      ],
+      "responses": ["10 marks","Ten marks"]
+	},
+	{
+	  "tag": "Lab marks for Engineering Drawing",
+		"ways": [
+        "Lab marks for Engineering Drawing?",
+        "How many marks for Lab in Engineering Drawing?",
+		"Peraentage of marks Lab in for Engineering Drawing?"
+      ],
+      "responses": ["20","Twenty","20%"]
+	},
+	{
+      "tag": "End Exam for Engineering Drawing",
+		"ways": [
+        "End Examination marks in Engineering Drawing?",
+		"End Exam marks in Engineering Drawing?",
+        "How many marks for End Examination in Engineering Drawing?",
+		"Peraentage of marks for End Examination in Engineering Drawing?"
+      ],
+      "responses": ["40 marks","Forty marks"]
+	},
+	{
+	  "tag": "Incourse Assessment for Engineering Drawing", 	
+		"ways": [
+        "Incourse Assessment marks in Engineering Drawing?",
+		"Incourse marks in Engineering Drawing?",
+        "How many marks for Incourse in Engineering Drawing?",
+		"Peraentage of marks for Incourse in Engineering Drawing?"
+      ],
+      "responses": [
+	  "\nAssignments = 10 \nMid Semester Assessment = 30 \nLab and Field work = 20"]
+	},
+	{
+	  "tag": "Marks for Engineering Drawing",	
+		"ways": [
+        "marks in Engineering Drawing?",
+		"marks system in Engineering Drawing?"
+      ],
+      "responses": [
+	 "\nAssignments = 10 \nMid Semester Assessment = 30 \nLab and Field work = 20 \nEnd Semester Examination = 40"]
+    },
+    {  
+	 "tag": "contact",
+      "ways": [
+        "I cant understand you!!!!",
+		"Give me more detalis ? "
+      ],
+      "responses": [
+        "For assistance, please email us at judy@eng.jfn.ac.lk or vist AR office .",
+        "Feel free to reach out to our AR office for more inquaris."
+      ]
+    }
+
+  ]
+}
